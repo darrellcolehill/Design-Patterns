@@ -51,6 +51,11 @@ I plan to takes notes on several important design patterns from a wide varitey o
    * Provides flexibility by allowing the program to mix/match/repeat the layering of decorators
 
 ## Observer
+   * Is about moving from a poll architecture to a push architecture
+   * Instead of having the observer ask the observable if it has changed, we have the observable tell the observer that it has changed
+   * Polling is when the observer(s) are responsible for asking if the observeable has changed its state
+      * this can present several issues like: how often should we check for changes, when should we start checking for changes, when should we stop checking for changes
+   * Pushing is when the observable is responsible for telling the observer(s) when it has changed
 
 ## Resources
    * https://www.youtube.com/watch?v=_BpmfnqjgzQ
