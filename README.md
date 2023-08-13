@@ -12,3 +12,7 @@ Notes/examples from my study of design patterns
    * Great for adding functionality to an object at runtime
    * Flexible alternative to sub-classing
    * Provides flexibility by allowing the program to mix/match/repeat the layering of decorators
+
+## Observer
+
+## Resources
