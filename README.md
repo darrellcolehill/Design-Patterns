@@ -16,3 +16,4 @@ Notes/examples from my study of design patterns
 ## Observer
 
 ## Resources
+   * https://www.youtube.com/watch?v=_BpmfnqjgzQ
