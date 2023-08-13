@@ -55,5 +55,6 @@ I plan to takes notes on several important design patterns from a wide varitey o
 ## Resources
    * https://www.youtube.com/watch?v=_BpmfnqjgzQ
    * https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/
+   * https://www.educative.io/answers/what-are-the-solid-principles-in-java
    * TODO: Clean Code
    * TODO: Clean Architecture
