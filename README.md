@@ -57,7 +57,7 @@ I plan to takes notes on several important design patterns from a wide varitey o
       * this can present several issues like: how often should we check for changes, when should we start checking for changes, when should we stop checking for changes
    * Pushing is when the observable is responsible for telling the observer(s) when it has changed
 
-## Factory
+## Factory Method
    * Unlike Strategy where you have to construct the new object, the factory method abstracts away the construction of new objects at runtime
    * Abstracts away complex object generations
    * Is about polymorphism
@@ -65,6 +65,13 @@ I plan to takes notes on several important design patterns from a wide varitey o
    * You have the things you are trying to create and the things that create them (Factories)
    * Lets a class defer instantiation to subclasses/concrete-factories
    * Good for when you don’t necessarily know how you want to construct an object, why you want to construct that object, and what parameters you want to pass when constructing that object
+
+## Abstract Factory
+   * TODO
+
+## Singleton
+   * TODO
+   * TODO: common arguments against this pattern
 
 
 
