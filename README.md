@@ -2,7 +2,7 @@
 Notes/examples from my study of design patterns
 
 ## Preface
-To understand the importance, pros, and cons of each design pattern, I think that it is also important to include a section of notes about SOLID design principles, because at times, design patterns compromise one of the SOLID design principles, in-order to more strictly enforce another SOLID deisign principle. 
+To understand the importance and the pros/cons of each design pattern, I think that it is also important to include a section of notes about SOLID design principles, because at times, design patterns compromise one of the SOLID design principles, in-order to more strictly enforce another SOLID deisign principle. 
 
 I plan to takes notes on several important design patterns from a wide varitey of resources. Studies materials will be added in the "Resources" sections as necessary. 
 
@@ -16,7 +16,7 @@ I plan to takes notes on several important design patterns from a wide varitey o
 
 ### Open-Close Principle
 
-> Software components should be open for extension, but not for modification
+> Software components should be open for extension, but closed for modification
 
 ### Liskov Substitution Principle
 
