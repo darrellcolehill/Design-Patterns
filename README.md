@@ -80,6 +80,14 @@ I plan to takes notes on several important design patterns from a wide varitey o
       * Diffficult testing
       * One man's constant is another man's variable 
 
+## Command
+   * Encapsulates a request as an object, thereby letting you parameterize other objects with different request, queue, or log requests and support undoable operations
+   * We can take a bunch of the encapsulated commands and we can use the commands and pass them around to give some kind of context
+   * You can make a list of commands and invoke them one at a time
+   * Helpful for things like undo/redo stacks
+   * You have a ICommand interface that specifies that each class implementing this interface must specify a void method for how it executes and unexecutes (undo)
+   * Concrete Commands implement the exeute and unexecute methods, and have a specified Receiver. The command's exeute method will typically call one of the receiver's methods, or directly change one of it's values
+   * You have an Invoker class, who maintains 0 to many ICommand(s)
 
 
 ## Resources
