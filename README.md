@@ -70,8 +70,15 @@ I plan to takes notes on several important design patterns from a wide varitey o
    * TODO
 
 ## Singleton
-   * TODO
-   * TODO: common arguments against this pattern
+   * Insures that a class only has one instance and provides a global access to that single instance
+   * You make the constructor static private so that you can't construct the class outside of that class
+   * You then make a static variable that holds the class object that is shared throughtout your program
+   * Common arguments against Singleton pattern
+      * Having to make the Singleton global makes it somewhat unpredictable. It could change without you indenting to. Whenever you leak to the global namespace, it could change without you knowing
+      * You are making the assumption that you will only EVER need one instace of a class
+      * Makes your code less flexible if you decide that you do not want your class to be a Singleton anymore
+      * Diffficult testing
+      * One man's constant is another man's variable 
 
 
 
