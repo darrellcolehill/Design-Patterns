@@ -89,6 +89,13 @@ I plan to takes notes on several important design patterns from a wide varitey o
    * Concrete Commands implement the exeute and unexecute methods, and have a specified Receiver. The command's exeute method will typically call one of the receiver's methods, or directly change one of it's values
    * You have an Invoker class, who maintains 0 to many ICommand(s)
 
+## Visitor
+   * Used to keep classes clean by not forcing them to implement behavior that is not necessary for them to operate
+   * Lets classes focus on their main purpose instead of worrying about how they are used
+   * Good for when you need to traverse over a complex collection of obects and perform a specific action depending on the class of each object
+   * Adheres to Open/Closed Principle by allowing new behavior to be added without changing the base classes
+   * Can be difficult if the visitor that you are trying to add needs access to private methods/variables
+
 
 ## Resources
    * https://www.youtube.com/watch?v=_BpmfnqjgzQ
