@@ -96,6 +96,9 @@ I plan to takes notes on several important design patterns from a wide varitey o
    * Adheres to Open/Closed Principle by allowing new behavior to be added without changing the base classes
    * Can be difficult if the visitor that you are trying to add needs access to private methods/variables
 
+## Iterator
+   * TODO
+
 
 ## Resources
    * https://www.youtube.com/watch?v=_BpmfnqjgzQ
